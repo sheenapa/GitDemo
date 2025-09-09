@@ -1,0 +1,746 @@
+[
+  {
+    "description": "    Feature Description\n    This feature verifies the functionality of adding a new job title in the application.\n    It includes scenarios for adding job titles with various details and validating error messages for missing mandatory fields.",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-add-job-title-functionality;add-a-new-job-title-with-various-details",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Add a new job title with various details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168139899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch the application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9415466000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2140907000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2367031600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigated to the dashboard",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22301699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on Admin menu and click on Job and then click on Job Titles",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5116764900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User click on the Add button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1667473500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User enter the job title as \"Software Engineer\" and job description as \"Responsible for software development\"",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2084175400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on the save button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddEmployee.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046201900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should see a success message for adding the job title",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 384037000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User should see the Jobtitle text in the saved page",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4001895700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73324400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-add-job-title-functionality;add-a-new-job-title-with-various-details",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Add a new job title with various details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118452600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch the application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23768357799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6575203200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2319980199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigated to the dashboard",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61976800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on Admin menu and click on Job and then click on Job Titles",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4873797500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User click on the Add button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1598464899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User enter the job title as \"HR Manager\" and job description as \"Manages human resources\"",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2076390899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on the save button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddEmployee.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062831699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should see a success message for adding the job title",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391508000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User should see the Jobtitle text in the saved page",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3978646500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81374899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-add-job-title-functionality;add-a-new-job-title-with-various-details",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Add a new job title with various details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 114771800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch the application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9951786999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7095453900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2420531799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigated to the dashboard",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59456100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on Admin menu and click on Job and then click on Job Titles",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4734179300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User click on the Add button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1587956700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User enter the job title as \"Sales Executive\" and job description as \"Handles sales and client relationships\"",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2066050199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User click on the save button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddEmployee.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050994499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should see a success message for adding the job title",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389335200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User should see the Jobtitle text in the saved page",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3992106599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72007199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-add-job-title-functionality;verify-the-error-message-for-missing-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify the error message for missing mandatory fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 123128799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch the application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7911607900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5510280400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2310985899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigated to the dashboard",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43339000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User click on Admin menu and click on Job and then click on Job Titles",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4997173100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User click on the Add button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1556895100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User click on the save button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddEmployee.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073621600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "User should see an error message for missing mandatory fields",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10062000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84706100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-add-job-title-functionality;verify-the-error-message-for-duplicate-job-title",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify the error message for duplicate job title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126360899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User launch the application",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6106888999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter the username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2138377100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2214368500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be navigated to the dashboard",
+            "match": {
+              "location": "tests\\stepDefinitions\\login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59926800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "User click on Admin menu and click on Job and then click on Job Titles",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6467064499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User click on the Add button",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2752266399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User enter the job Title as \"Software Engineer\" and job Description as \"Responsible for software development\"",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2081063300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "User should see an error message for duplicate job title",
+            "match": {
+              "location": "file:\\D:\\LearnPlaywright_BDD\\tests\\stepDefinitions\\AddJobTitlt.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1045199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50614999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-add-job-title-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify Add Job Title Functionality",
+    "tags": [],
+    "uri": "tests\\features\\AddJobTitle.feature"
+  }
+]
